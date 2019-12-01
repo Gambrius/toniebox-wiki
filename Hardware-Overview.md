@@ -1,8 +1,10 @@
-## Pictures
-### Board
+# Pictures
+## Board
 ![](https://d3nevzfk7ii3be.cloudfront.net/igi/d4ypF2sLF5VkOXXv.medium)
 
 Detail pictures see [iFixit Teardown](https://de.ifixit.com/Teardown/Toniebox+Teardown/106148)
+
+# Parts
 ## Processor [TI CC3200](http://www.ti.com/lit/ds/symlink/cc3200.pdf)
 I suggest to get a [CC3200 Launchpad](http://www.ti.com/tool/CC3200-LAUNCHXL) for first contact.
 
