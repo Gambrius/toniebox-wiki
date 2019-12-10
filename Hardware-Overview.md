@@ -6,6 +6,7 @@ Detail pictures see [iFixit Teardown](https://de.ifixit.com/Teardown/Toniebox+Te
 
 # Parts
 ## Processor [TI CC3200](http://www.ti.com/lit/ds/symlink/cc3200.pdf)
+[Technical Information](http://www.ti.com/lit/ug/swru367d/swru367d.pdf)
 I suggest to get a [CC3200 Launchpad](http://www.ti.com/tool/CC3200-LAUNCHXL) for first contact.
 
 ![](http://www.ti.com/diagrams/cc3200-launchxl_cc3200-launchxl_no_bg_resize.jpg)
