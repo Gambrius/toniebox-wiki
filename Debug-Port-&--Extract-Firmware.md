@@ -27,3 +27,4 @@ To be able to extract the firmware you will need to pull SOP2 high and reset the
 Use [cc3200tool](https://github.com/ALLTERCO/cc3200tool) to extract the firmware.
 1. Extract full firmware `cc3200tool -p /dev/ttyUSB2 --sop2 ~dtr --reset rts read_flash firmware.dmp`
 2. List files in FatFS `cc3200tool -p /dev/ttyUSB2 --sop2 ~dtr --reset rts list_filesystem`
+3. Extract the files you like `cc3200tool -p /dev/ttyUSB2 --sop2 ~dtr --reset rts read_file /sys/mcuimg.bin ./sys/mcuimg.bin`
