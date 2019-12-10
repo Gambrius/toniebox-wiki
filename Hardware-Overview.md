@@ -14,7 +14,9 @@ Various useful pins (SOP2, TCK, TMS, GND, RST, GND, RX0, TX0) are available thro
 ## Flash 4MB [ISSI IS25LQ032B](http://www.issi.com/WW/pdf/25LQ080B-016B-032B.pdf)
 Firmware is stored in a TI propiertery  FatFS but can easily be read over the RX/TX lines of the mainboard when the CC3200 is in flash-mode.
 
-## Audio Controller [TI TLV320DAC3100](http://www.ti.com/lit/ds/symlink/tlv320dac3100.pdf)
+## Audio DAC [TI TLV320DAC3100](http://www.ti.com/lit/ds/symlink/tlv320dac3100.pdf)
 ## RFID Reader [TI TRF7962A](http://www.ti.com/lit/ds/symlink/trf7962a.pdf)
+Reading MiFare Classic should be possible
 ## Acceleration Sensor [NXP MMA8451Q](https://www.nxp.com/docs/en/data-sheet/MMA8451Q.pdf)
+[Arduino Library](https://github.com/sparkfun/SparkFun_MMA8452Q_Arduino_Library) exists.
 
