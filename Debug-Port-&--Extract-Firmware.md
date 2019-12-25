@@ -20,7 +20,7 @@ The debug port runs on 3.3V
 
 # Extract Firmware
 ## Introduction
-Grab your favourite USB-UART interface, recommending those with DTR and RTS port to automate board reset + bootflag (SOP2).
+Grab your favourite USB-UART 3.3V interface, recommending those with DTR and RTS port to automate board reset + bootflag (SOP2).
 ## Bootloader
 To be able to extract the firmware you will need to pull SOP2 high and reset the device.
 ## Toolset
