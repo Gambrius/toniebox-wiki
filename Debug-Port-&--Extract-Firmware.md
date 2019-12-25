@@ -16,7 +16,7 @@ The debug port runs on 3.3V
 6. RST 32
 7. VCC (3.3V)
 8. RX 57
-9. RX 55
+9. TX 55
 
 # Extract Firmware
 ## Introduction
