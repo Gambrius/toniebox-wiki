@@ -18,7 +18,8 @@ Firmware is stored in a TI propiertery  FatFS but can easily be read over the RX
 ## Audio DAC [TI TLV320DAC3100](http://www.ti.com/lit/ds/symlink/tlv320dac3100.pdf)
 I2C address should be 0x18.
 ## RFID Reader [TI TRF7962A](http://www.ti.com/lit/ds/symlink/trf7962a.pdf)
-Reading MiFare Classic is not possible.
+Reading MiFare Classic is not possible. 
+Example Salae Logic SPI http://www.ti.com/lit/zip/sloc240
 ## Acceleration Sensor [NXP MMA8451Q](https://www.nxp.com/docs/en/data-sheet/MMA8451Q.pdf)
 [Arduino Library](https://github.com/sparkfun/SparkFun_MMA8452Q_Arduino_Library) exists.
 I2C address should be 0x1C (or 0x1D)
