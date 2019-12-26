@@ -20,6 +20,8 @@ I2C address should be 0x18.
 ## RFID Reader [TI TRF7962A](http://www.ti.com/lit/ds/symlink/trf7962a.pdf)
 Reading MiFare Classic is not possible without using the chips direct mode which means more work. 
 1.2 http://www.ti.com/lit/an/sloa248b/sloa248b.pdf 
+http://www.ti.com/tool/TRF796X_TRF7970X_MIFARE_12_2013
+
 Firmware TRF7970ABP: http://www.ti.com/lit/zip/sloc297
 Example Salae Logic SPI http://www.ti.com/lit/zip/sloc240
 ## Acceleration Sensor [NXP MMA8451Q](https://www.nxp.com/docs/en/data-sheet/MMA8451Q.pdf)
