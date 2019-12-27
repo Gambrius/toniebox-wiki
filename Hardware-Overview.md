@@ -26,7 +26,7 @@ Firmware TRF7970ABP: http://www.ti.com/lit/zip/sloc297
 Example Salae Logic SPI http://www.ti.com/lit/zip/sloc240
 ## Acceleration Sensor [NXP MMA8451Q](https://www.nxp.com/docs/en/data-sheet/MMA8451Q.pdf)
 [Arduino Library](https://github.com/sparkfun/SparkFun_MMA8452Q_Arduino_Library) exists.
-I2C address should be 0x1C (or 0x1D)
+I2C address is 0x1D
 ## RGB LEDs
 ### Green PIN 21 (SOP2)
 ### Red PIN 19 (TCK)
