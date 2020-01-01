@@ -56,9 +56,9 @@
 | 54 | VIN_IO2 | | | |
 | 55 | GPIO01 | | | TX0 |
 | 56 | VDD_DIG2  | | | |
-| 57 | GPIO02 | BTN01 | Ears | RX0 |
+| 57 | GPIO02 | BTN01 | Ears | RX0 / big ear|
 | 58 | GPIO03 | | | |
-| 59 | GPIO04 | BTN02 | Ears | |
+| 59 | GPIO04 | BTN02 | Ears | small ear |
 | 60 | GPIO05 | ADC | Battery | Battery level analog pin |
 | 61 | GPIO06 | Power | MMA + DAC | High = Power on |
 | 62 | GPIO07 | DAC Reset | DAC | 10ms Low for Reset |
