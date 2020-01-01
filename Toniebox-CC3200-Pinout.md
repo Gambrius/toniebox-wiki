@@ -7,7 +7,7 @@
 | 05 | GPIO14 | GSPI_CLK | RFID | |
 | 06 | GPIO15 | GSPI_MISO | RFID | |
 | 07 | GPIO16 | GSPI_MOSI | RFID | |
-| 08 | GPIO17 | | | |
+| 08 | GPIO17 | Charger | Battery | 2.4V when on charger|
 | 09 | VDD_DIG1 | | | |
 | 10 | VINIO1 | | | |
 | 11 | FLASH_SPI_CLK | | | |
@@ -59,7 +59,7 @@
 | 57 | GPIO02 | BTN01 | Ears | RX0 |
 | 58 | GPIO03 | | | |
 | 59 | GPIO04 | BTN02 | Ears | |
-| 60 | GPIO05 | | | |
+| 60 | GPIO05 | ADC | Battery | Battery level analog pin |
 | 61 | GPIO06 | Power | MMA + DAC | High = Power on |
 | 62 | GPIO07 | DAC Reset | DAC | 10ms Low for Reset |
 | 63 | GPIO08 | I2S Frame Sync (WCLK) | DAC | |
