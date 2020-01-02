@@ -1,0 +1,1 @@
+https://github.com/micropython/micropython-infineon/blob/master/cc3200/Makefile
