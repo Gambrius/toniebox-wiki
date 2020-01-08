@@ -30,12 +30,12 @@ So the files are structured like this:
 
 The file header is coded using protobuf and contains these fields:
 
-    1. [string]  Audio data SHA-1 hash
-    2. [variant] Audio data length in bytes
-    3. [variant] guess: Timestamp
-    4. [string]  guess: chapter
-    5. [string]  fill bytes
-    6. [variant] unknown
+    1. [string]   Audio data SHA-1 hash
+    2. [variant]  Audio data length in bytes
+    3. [variant]  (guess: Timestamp)
+    4. [string]   (guess: chapter)
+    5. [string]   fill bytes
+    6. [variant]  (unknown)
 
 To decode the protobuf content, you can use the online decoder at https://protogen.marcgravell.com/decode
 
