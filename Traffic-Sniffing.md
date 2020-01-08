@@ -24,5 +24,5 @@ To use your generated ca certificate for the toniebox you will have to convert i
 openssl x509 -inform PEM -outform DER -in ca-custom.crt -out ca-custom.der
 ```
 
-# SSLStrip Tutorial
+# SSLSplit Tutorial
 https://blog.heckel.io/2013/08/04/use-sslsplit-to-transparently-sniff-tls-ssl-connections/
