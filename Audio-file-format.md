@@ -32,8 +32,8 @@ The file header is coded using protobuf and contains these fields:
 
     1. [string]   Audio data SHA-1 hash
     2. [variant]  Audio data length in bytes
-    3. [variant]  (guess: Timestamp)
-    4. [string]   (guess: chapter)
+    3. [variant]  Audio-ID of OGG audio file
+    4. [string]   Ogg page number for Chapters
     5. [string]   fill bytes
     6. [variant]  (unknown)
 
