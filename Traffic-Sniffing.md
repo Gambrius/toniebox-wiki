@@ -25,7 +25,14 @@ openssl x509 -inform PEM -outform DER -in ca-custom.crt -out ca-custom.der
 ```
 
 # WIP Fake Server / Client - DOES NOT WORK!
+No data seems to be send or received this way
 https://github.com/toniebox-reverse-engineering/toniebox/tree/master/tools
+
+# SSLSplit Command - DOES NOT WORK!
+Connection isn't held
+```
+sslsplit -D -l /tmp/sslsplit/connections.log -j /tmp/sslsplit/ -S /tmp/sslsplit/logdir/ -c /tmp/sslsplit/ca.crt -k /tmp/sslsplit/ca.key -a /tmp/sslsplit/toniebox/client.crt -b /tmp/sslsplit/toniebox/private.key -W /tmp/sslsplit/gendir/ -M /tmp/sslsplit/sslkeylogfile.log -P https 0.0.0.0 8443
+```
 
 # SSLSplit Tutorial
 https://blog.heckel.io/2013/08/04/use-sslsplit-to-transparently-sniff-tls-ssl-connections/
