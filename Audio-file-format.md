@@ -24,7 +24,7 @@ So the files are structured like this:
     where:
     <header_len>  length of <header_data> in big endian uint32, usually 0x00000FFC
     <header_data> protobuf coded info fields like SHA1 hash, audio length, etc
-    <audio_data>  Ogg audio files
+    <audio_data>  Ogg audio file
 
 # Header format
 
@@ -33,10 +33,9 @@ The file header is coded using protobuf and contains these fields:
     1. [string]   Audio data SHA-1 hash
     2. [variant]  Audio data length in bytes
     3. [variant]  Audio-ID of OGG audio file
-    4. [string]   Ogg page number for Chapters
-    5. [string]   fill bytes
-    6. [variant]  (unknown)
-
+    4. [string]   Ogg page numbers for Chapters
+    5. [string]   fill bytes „00“ up to <header_len>
+   
 To decode the protobuf content, you can use the online decoder at https://protogen.marcgravell.com/decode
 
 
