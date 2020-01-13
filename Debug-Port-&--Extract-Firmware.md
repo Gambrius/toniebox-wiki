@@ -1,26 +1,40 @@
 # Debug Port
 ## General
-The debug port runs on 3.3V
-## Layout (Tonies logo bottom right)
-`0 1 2 3 4`
 
-`5 6 7 8 9`
+The debug port runs on `3.3 V`
 
-Fitting cable is an expensive Tag Connect TC2050-IDC-NL
-http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+## Layout 
+
+The pins are accessible from the bottom side. Pinout according to Tag Connect 
+footprint:
+
+
+```
+  10 9 8 7 6 
+   1 2 3 4 5  
+```
+
+![tonie_debug_pinout.png](tonie_debug_pinout.png)
+
+Fitting cable is an expensive [Tag Connect TC2050-IDC-NL](http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf), for hands-free debugging the [TC2050-CLIP](http://www.tag-connect.com/TC2050-CLIP) is needed.
 
 ## Pinout
-0. ???
-1. TCK 19
-2. TMS 20
-3. SOP2 21 (indirect SOP0 35)
-4. ???
 
-5. GND
-6. RST 32
-7. VCC (3.3V)
-8. RX 57
-9. TX 55
+
+| Pin | Function | Comment               |
+| --- | -------- | --------------------- |
+| 1   | TX       | 55                    |
+| 2   | RX       | 57                    |
+| 3   | VCC      | 3.3V                  |
+| 4   | RST      | 32                    |
+| 5   | GND      |                       |
+| 6   | ?        |                       |
+| 7   | TCK      | 19                    |
+| 8   | TMS      | 20                    |
+| 9   | SOP2     | 21 (indirect SOP0 35) |
+| 10  | ?        |                       |
+
+
 
 # Extract Firmware
 ## Introduction
